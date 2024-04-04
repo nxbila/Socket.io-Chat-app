@@ -1,0 +1,69 @@
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(136, 153, 170));
+
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI',Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.container{
+    max-width: 955px;
+    border: 2px solid black;
+    margin:auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto; /*only shows scrollbar when too many messages are there*/
+    margin-bottom: 23px;
+    border-radius: 13px;
+}
+.message{
+    border: 2px solid black;
+    background-color: grey;
+    padding: 15px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+.left{
+    float:  left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#messageInp{
+    width: 80%;
+    border: 2px solid black;
+    border-radius:6px;
+    height: 34px;
+    font-size: 22px;
+
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius:6px;
+    height: 34px;
+    width: 9%;
+    margin: 0 5px;
+} 
